@@ -11,18 +11,21 @@ const nextHandler= nextApp.getRequestHandler()
 
 var connectCounter=0
 io.on("connection",(socket)=>{
+  
+        connectCounter++
+        console.log("connection on",connectCounter)
+  
+        io.emit('counter', connectCounter);
 
-    connectCounter++
-    console.log("connection on",connectCounter)
-   
 
     socket.on("disconnect",()=>{
-        connectCounter--
+  
+        connectCounter--;
         console.log("disconnect",connectCounter)
+        io.emit('counter', connectCounter);
 
         
     })
-    io.emit("now",connectCounter)
 
 })
 

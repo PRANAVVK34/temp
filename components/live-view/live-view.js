@@ -14,7 +14,7 @@ class liveView extends Component{
             <h4>LIVE</h4>
         </div>
         
-        <p>20k</p>
+        <p>{this.props.count}</p>
     </div>
     <div className={style.image}>
     <img src="/live.jpg" alt="image" className={style.graph}/>

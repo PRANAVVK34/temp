@@ -10,12 +10,16 @@ import Nav from '../components/navigation/nav';
 import io from 'socket.io-client';
 
 
-var socket= io('http://localhost:4000')
+var socket= io()
 class HomePage extends Component{
+    state={
+        count:""
+    }
 
     componentDidMount(){
-        socket.on("now",data=>{
+        socket.on("counter",data=>{
          console.log(data);
+         this.setState({count:data})
         })
     }
     render(){
@@ -30,7 +34,7 @@ class HomePage extends Component{
                 
                 <div className={styles.top}>
                 <Label/>
-                <LiveView />
+                <LiveView count={this.state.count}/>
                 </div>
                 <div className={styles.nav}>
                 <Nav/>
