@@ -1,0 +1,62 @@
+
+.time h1{
+    color: white;
+    font-size: 3em;
+    margin: 0;
+    font-family:"helvetica";
+    font-weight: normal;
+}
+.time time{
+    color: #FFB300;
+    font-size: 1.5em;
+}
+.time span{
+    color: white;
+    font-size: .9em;
+}
+@media only screen and (max-width:1024px){
+
+    .time h1{
+        font-size:2.8em;
+    }
+    .time time{
+        font-size: 1.3em;
+    }
+}
+@media only screen and (max-width:850px){
+
+    .time h1{
+        font-size:2.4em;
+    }
+    .time time{
+        font-size: 1.2em;
+    }
+}
+@media only screen and (max-width:640px){
+
+    .time h1{
+        font-size:1.8em;
+    }
+    .time time{
+        font-size: .8em;
+    }
+}
+@media only screen and (max-width:470px){
+
+    .time h1{
+        font-size:1.2em;
+    }
+    .time time{
+        font-size: .6em;
+    }
+}
+@media only screen and (max-width:350px){
+
+    .time h1{
+        font-size:1em;
+    }
+    .time time{
+        font-size: .5em;
+    }
+}
+

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+.label{
+    font-size: 1.5em;
+    font-weight: normal;
+    padding: 0;
+}
+.label h3 span{
+    color:#FFAC00;
+}
+.label a{
+    color:white;
+    text-decoration: none;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Space Mono', monospace;
+}
+.label p{
+    color: white;
+    margin-top: -20px;
+    padding: 0;
+    font-size: .7em;
+}
+.label p span{
+    color:#6A99FB;
+}
+.label br{
+    display: none;
+}
+
+ @media screen and (max-width:1024px) {
+    .label{
+        font-size: 1.3em;
+    }
+    .label p{
+        font-size: .7em;
+    }
+    .label br{
+        display: none;
+    }
+} 
+@media screen and (max-width:850px) {
+    .label{
+        font-size: 1em;
+    }
+    .label p{
+        font-size: .8em;
+        margin-top: -10px;
+    }
+    .label br{
+        display: none;
+    }
+}
+@media screen and (max-width:640px) {
+    .label{
+        font-size: .8em;
+    }
+    .label p{
+        font-size: .7.5em;
+    }
+    .label br{
+        display: none;
+    }
+}
+@media screen and (max-width:500px) {
+    .label{
+        font-size: .7em;
+    }
+    .label p{
+        font-size: .6.5em;
+        margin-top: -5px;
+    }
+    .label br{
+        display: none;
+    }
+}
+@media screen and (max-width:350px) {
+    .label{
+        font-size: .6em;
+    }
+    .label p{
+        font-size: .5em;
+        
+    }
+    .label br{
+        display: block;
+    }
+} 
