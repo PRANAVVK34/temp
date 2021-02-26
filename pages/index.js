@@ -46,16 +46,6 @@ class HomePage extends Component{
                 <VideoPage/>
             </div>
         
-            <style jsx global>{`
-            body{
-                font-family: helvetica;
-                background-color: black;
-                margin:0;
-                padding:0;
-                box-sizing: border-box;
-        }
-        `}
-            </style>
             </>
             ) 
     }

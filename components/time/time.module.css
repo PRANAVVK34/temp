@@ -5,6 +5,7 @@
     margin: 0;
     font-family:"helvetica";
     font-weight: normal;
+    text-transform: uppercase;
 }
 .time time{
     color: #FFB300;

@@ -4,7 +4,7 @@ import style from './live.module.css';
 class liveView extends Component{
     render(){
        
-        return(
+    return(
 <>
 
 <div className={style.live}>

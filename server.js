@@ -10,7 +10,7 @@ const nextHandler= nextApp.getRequestHandler()
 
 
 var connectCounter=0
-io.on("connection",(socket)=>{
+io.of("/").on("connection",(socket)=>{
   
         connectCounter++
         console.log("connection on",connectCounter)
@@ -27,6 +27,18 @@ io.on("connection",(socket)=>{
         
     })
 
+})
+var count=0;
+io.of('/navigation').on("connection",(socket)=>{
+    count++
+    console.log("nav-connection",count);
+
+    io.emit('nav-counter',count);
+
+    socket.on("disconnect",()=>{
+        count--
+        console.log("nav-disconnection",count);
+    })
 })
 
 
