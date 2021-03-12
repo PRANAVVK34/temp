@@ -1,0 +1,76 @@
+
+ .display{
+    position:absolute;
+    display: block;
+
+ }
+
+ .viewer{
+     display: grid;
+     grid-template-columns: 200px 100px;
+     grid-template-rows: repeat(4, 160px);
+ }
+ @media screen and (min-width:475px){
+    .display{
+        margin-left: 2%;
+    }
+}
+ @media screen and (min-width:500px){
+    .display{
+        margin-left: 5%;
+    }
+}
+@media screen and (min-width:525px){
+    .display{
+        margin-left: 7%;
+    }
+}
+ @media screen and (min-width:550px){
+    .display{
+        margin-left: 9%;
+    }
+}
+@media screen and (min-width:575px){
+    .display{
+        margin-left: 10%;
+    }
+}
+ @media screen and (min-width:600px){
+     .display{
+         margin-left: 13%;
+     }
+ }
+ @media screen and (min-width:665px){
+    .display{
+        margin-left: 15%;
+    }
+}
+ @media screen and (min-width:700px){
+    .display{
+        margin-left: 17%;
+    }
+}
+@media screen and (min-width:800px){
+    .display{
+        margin-left: 20%;
+    }
+}
+@media screen and (min-width:900px){
+    .display{
+        margin-left: 25%;
+    }
+}
+@media screen and (min-width:1000px){
+    .display{
+        margin-left: 30%;
+    }
+}
+@media screen and (min-width:1400px){
+    .display{
+        margin-left: 30%;
+    }
+    .viewer{
+        grid-template-columns: 200px 200px 100px;
+        grid-template-rows: repeat(4, 160px);
+    }
+} 

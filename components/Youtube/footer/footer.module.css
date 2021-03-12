@@ -1,0 +1,196 @@
+.contain{
+    display: flex;
+   align-items: center;
+    width: 100%;
+    background:#666666;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    z-index: 200;
+}
+
+
+.contain video{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    margin-top: -56px;
+    margin-left: 20px;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+.contain i{
+    color: white;
+    margin-left: 120px;
+    z-index: 500;
+}
+.contain i:hover{
+    cursor: pointer;
+}
+.icon{
+    display: grid;
+    grid-template-columns: 10% 40% 10% 10%;
+}
+.popupMsg{
+    position: absolute;
+    margin-left:40% ;
+    margin-top: 40%;
+    width: max-content;
+    height: max-content;
+    border: 5px solid #4EA5BF;
+    text-align: center;
+    background-color:rgba(0, 0, 0, .6);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    animation: move 5s;
+}
+.popupMsg p{
+    color: white;
+    font-size: 1.2em;
+    z-index: 500;
+    opacity: .6;
+    padding: 20px;
+}
+
+@keyframes move{
+    0%{margin-top: -10%;}
+    50%{margin-top: -60%;}
+    100%{margin-top: -500%;}
+}
+@media screen and (min-width:100px){
+    .icon{
+        grid-template-columns: 8% 36% 8% 10%;
+    }
+}
+@media screen and (min-width:450px){
+    .icon{
+        grid-template-columns: 8% 40% 8% 10%;
+    }
+}
+@media screen and (min-width:465px){
+    .icon{
+        grid-template-columns: 10% 40% 10% 10%;
+    }
+}
+@media screen and (min-width:500px){
+    .icon{
+        grid-template-columns: 10% 45% 10% 10%;
+    }
+}
+@media screen and (min-width:550px){
+    .icon{
+        grid-template-columns: 10% 55% 10% 10%;
+    }
+}
+@media screen and (min-width:600px){
+    .icon{
+        grid-template-columns: 10% 65% 10% 10%;
+    }
+}
+@media screen and (min-width:650px){
+    .icon{
+        grid-template-columns: 10% 75% 10% 10%;
+    }
+}
+@media screen and (min-width:700px){
+    .icon{
+        grid-template-columns: 10% 82% 10% 10%;
+    }
+}
+@media screen and (min-width:750px){
+    .icon{
+        grid-template-columns: 10% 90% 10% 10%;
+    }
+}
+
+@media screen and (min-width:800px){
+    .icon{
+        grid-template-columns: 11% 100% 11% 10%;
+    }
+}
+@media screen and (min-width:850px){
+    .icon{
+        grid-template-columns: 11% 110% 11% 10%;
+    }
+}
+@media screen and (min-width:900px){
+    .icon{
+        grid-template-columns: 11% 115% 11% 10%;
+    }
+}
+@media screen and (min-width:950px){
+    .icon{
+        grid-template-columns: 11% 128% 11% 10%;
+    }
+}
+@media screen and (min-width:1000px){
+    .icon{
+        grid-template-columns: 11% 135% 11% 10%;
+    }
+}
+@media screen and (min-width:1050px){
+    .icon{
+        grid-template-columns: 11% 145% 11% 10%;
+    }
+}
+@media screen and (min-width:1100px){
+    .icon{
+        grid-template-columns: 11% 155% 11% 10%;
+    }
+}
+@media screen and (min-width:1150px){
+    .icon{
+        grid-template-columns: 11% 165% 11% 10%;
+    }
+}
+@media screen and (min-width:1200px){
+    .icon{
+        grid-template-columns: 11% 175% 11% 10%;
+    }
+}
+@media screen and (min-width:1250px){
+    .icon{
+        grid-template-columns: 11% 185% 11% 10%;
+    }
+}
+@media screen and (min-width:1300px){
+    .icon{
+        grid-template-columns: 11% 195% 11% 10%;
+    }
+}
+@media screen and (min-width:1350px){
+    .icon{
+        grid-template-columns: 11% 203% 11% 10%;
+    }
+}
+@media screen and (min-width:1400px){
+    .icon{
+        grid-template-columns: 11% 125% 11% 10%;
+    }
+    .contain{
+        height: 65px;
+        background-color: rgba(0, 0, 0, .4);
+    }
+    .contain video{
+        height: 120px;
+        width: 120px;
+        margin-top: -75px;
+    }
+    .contain i{
+        font-size: 35px;
+        margin-left: 170px;
+    }
+    .popupMsg{
+        margin-left: 45%;
+    }
+}
+@media screen and (min-width:1450px){
+    .icon{
+        grid-template-columns: 11% 130% 11% 10%;
+    }
+}
+@media screen and (min-width:1500px){
+    .icon{
+        grid-template-columns: 11% 136% 11% 10%;
+    }
+}

@@ -1,0 +1,136 @@
+
+.form{
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    margin-bottom: -8%;
+    margin-left: 1%;
+}
+.formcontrol{
+    width: 20em;
+    margin: 10px auto;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid #675959;
+    border-right: none;
+    color: white;
+    padding-top: 30px;
+}
+.formcontrol::placeholder{
+    color: white;
+}
+.formcontrol:focus{
+    outline: none;
+}
+.submit{
+    position: absolute;
+    left: -9999px;
+}
+.vdo{
+    position: absolute; 
+    width: 40%;
+    height: 70%;
+
+    transform: translate(74%,-45%);
+    margin: 0;
+    padding: 0; 
+    z-index: -10;
+   }
+  .video{
+       width:100%;
+       height: 100%;
+       z-index: 1;
+       opacity: 70%;
+       animation: fadein 2s;
+   }
+   @keyframes fadein {
+    0% { opacity: 0; }
+    50%   { opacity: 0.5; }
+    100%   { opacity: 1; }
+}
+
+
+@media screen and (max-width:900px){
+    .formcontrol{
+        width: 12em;
+        margin: 3px auto;
+        padding-top: 20px;
+    }
+    .vdo{
+        width: 35%;
+        height: 80%;
+        margin-left: 8%;
+    }
+
+   }
+
+   @media screen and (max-width:768px){
+    .formcontrol{
+        width: 10em;
+        margin: 2px auto;
+        padding-top: 20px;
+        font-size: 12px;
+    }
+    .vdo{
+        width: 35%;
+        height: 70%;
+    }
+
+   }
+   @media screen and (max-width:600px){
+    .formcontrol{
+        width: 10em;
+        margin: 3px auto;
+        padding-top: 10px;
+        font-size: 8px;
+    }
+
+    .video{
+        width:80%;
+        height: 110%;
+        transform: translateX(12%);
+    }
+
+   }
+   @media screen and (max-width:550px){
+    .formcontrol{
+        width: 8em;
+        margin: 2px auto;
+        padding-top: 10px;
+        font-size: 7px;
+    }
+
+    .video{
+        width:80%;
+        height: 110%;
+        transform: translateX(11%);
+    }
+
+   }
+   @media screen and (max-width:500px){
+    .formcontrol{
+        width: 10em;
+        margin: 1.7px auto;
+        padding-top: 6px;
+        font-size: 5px;
+    }
+    .vdo{
+        width: 45%;
+        height: 40%;
+    }
+
+   }
+   @media screen and (max-width:400px){
+    .formcontrol{
+        width: 10em;
+        margin: 1px auto;
+        padding-top: 3px;
+        font-size: 5px;
+    }
+    .vdo{
+        width: 45%;
+        height: 40%;
+    }
+
+   }
+

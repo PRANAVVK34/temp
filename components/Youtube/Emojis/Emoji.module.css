@@ -1,0 +1,47 @@
+.emoji{
+        position: fixed;
+        z-index: 400;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, .5);
+        overflow-y: auto;
+
+}
+.emoji ul{
+    padding: 0;
+    margin: 0;
+    margin: 50px 0 0 50px;
+    
+}
+.singleEmoji{
+    display: inline-block;
+}
+.singleEmoji img{
+    width: 255px;
+    height: 180px;
+    margin-left: 2px;
+}
+.emoji i{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 95%;
+    color: white;
+    z-index: 1000;
+}
+.emoji i:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:500px){
+    .singleEmoji img{
+        width: 140px;
+        height: 100px;
+        margin-left: 1px;
+    }
+}
+@media screen and (max-width:400px){
+    .singleEmoji img{
+        width: 142px;
+        height: 100px;
+        margin-left: 1px;
+    }
+}

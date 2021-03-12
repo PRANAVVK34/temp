@@ -1,0 +1,214 @@
+
+.form{
+   margin-left: 45%;
+
+}
+
+.navContainer{
+   background-color: rgba(0, 0, 0, 0.5);
+   padding-bottom: 7%;
+   padding-top: 1%;
+   
+}
+
+.navTop{
+   display:flex;
+   justify-content: space-between;
+   margin:.3% 3%;
+   align-items: flex-start;
+   
+}
+.navImage{
+   transform: translateY(30%);
+}
+.navBottom{
+  height:36vh;
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  margin:0 3% 0 3%;
+}
+@media screen and (max-width:1240px){
+   .navTop{
+      margin:4% 3% 0 3%;
+      
+   }
+   .navBottom{
+      height:26vh;
+   }
+  
+   }
+
+@media screen and (max-width:1024px){
+.navTop{
+   margin:4% 3% 0 3%;
+   
+}
+.navBottom{
+   height:25vh;
+}
+.navImage{
+   width: 90%;
+   margin-top: -5%;
+   transform: translateX(5%);
+}
+}
+ @media screen and (max-width:900px){
+   .navTop{
+       margin:6% 3% 0 3%;
+       
+   }
+   .navBottom{
+       height:30vh;
+   }
+   .navImage{
+      width: 80%;
+      margin-top: -5%;
+      transform: translateX(12%);
+   }
+
+   } 
+ @media screen and (max-width:850px) {
+.navTop{
+   margin:10% 3% 0 3%;
+   
+}
+.navBottom{
+   height:24vh;
+}
+}
+@media screen and (max-width:800px) {
+.navTop{
+   margin:12% 3% 0 3%;
+   
+}
+.navBottom{
+   height:24vh;
+}
+.navImage{
+   margin-top: -8%;
+}
+} 
+@media screen and (max-width:768px) {
+   .navTop{
+      margin:12% 3% 0 3%;
+      
+   }
+   .navBottom{
+      height:25vh;
+   }
+   .navImage{
+      margin-top: -8%;
+   }
+   } 
+@media screen and (max-width:750px) {
+.navTop{
+   margin:13% 3% 0 3%;
+   
+}
+.navBottom{
+   height:24vh;
+}
+}
+@media screen and (max-width:700px) {
+.navTop{
+   margin:18% 3% 0 3%;
+   
+}
+.navBottom{
+   height:18vh;
+}
+}
+@media screen and (max-width:650px) {
+   .navTop{
+       margin:22% 3% 0 3%;
+       
+   }
+   .navBottom{
+       height:14vh;
+   }
+   }
+@media screen and (max-width:600px) {
+   .navTop{
+         margin:23% 3% 0 3%;
+         
+   }
+   .navBottom{
+         height:19vh;
+   }
+   }
+@media screen and (max-width:550px) {
+   .navTop{
+         margin:28% 3% 0 3%;
+         
+   }
+   .navBottom{
+         height:16vh;
+   }
+   }
+@media screen and (max-width:500px) {
+   .navTop{
+         margin:32% 3% 0 3%;
+         
+   }
+   .navBottom{
+         height:19vh;
+   }
+   }
+   @media screen and (max-width:470px) {
+      .navTop{
+            margin:34% 3% 0 3%;
+            
+            
+      }
+      .navBottom{
+            height:18vh;
+           
+      }
+      }
+@media screen and (max-width:450px) {
+   .navTop{
+         margin:40% 3% 0 3%;
+         
+         
+   }
+   .navBottom{
+         height:14vh;
+        
+   }
+   }
+@media screen and (max-width:400px) {
+   .navTop{
+         margin:45% 3% 0 3%;
+         
+         
+   }
+   .navBottom{
+         height:13vh;
+         
+   }
+   }
+@media screen and (max-width:380px) {
+   .navTop{
+         margin:50% 3% 0 3%;
+         
+         
+   }
+   .navBottom{
+         height:11vh;
+         
+   }
+   }
+@media screen and (max-width:350px) {
+   .navTop{
+         margin:58% 3% 0 3%;
+         
+         
+   }
+   .navBottom{
+         height:7vh;
+         
+   }
+}
+
+
